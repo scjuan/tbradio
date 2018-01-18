@@ -26,13 +26,13 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 const DEMO = true;
 
 // Nome da Rádio
-const NOME_RADIO = "Rock FM";
+const NOME_RADIO = "Radio HDS";
 
 // Endereço do streaming Shoutcast com porta (se houver) e sem / no final. Exemplo: http://streaming.com:8080
-const URL_STREAMING = "http://104.156.244.180:8484";
+const URL_STREAMING = "http://wowza.aacplusargentina.com:10008";
 
 // Visite https://api.vagalume.com.br/docs/ para saber como conseguir uma chave para API de letras
-var API_KEY = "18fe07917957c289983464588aabddfb";
+var API_KEY = "81ad0f0ff7df3ae61ad97cd1425a753d";
 
 window.onload = function() {
 	var pagina = new Pagina;
