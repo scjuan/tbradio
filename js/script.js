@@ -29,7 +29,7 @@ const DEMO = true;
 const NOME_RADIO = "THE BEAT RADIO";
 
 // Endereço do streaming Shoutcast com porta (se houver) e sem / no final. Exemplo: http://streaming.com:8080
-const URL_STREAMING = "http://51.254.164.158:8209/";
+const URL_STREAMING = "http://51.254.164.158:8209/;";
 
 // Visite https://api.vagalume.com.br/docs/ para saber como conseguir uma chave para API de letras
 var API_KEY = "81ad0f0ff7df3ae61ad97cd1425a753d";
