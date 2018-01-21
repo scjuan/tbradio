@@ -32,7 +32,7 @@ const NOME_RADIO = "THE BEAT RADIO";
 const URL_STREAMING = "http://51.254.164.158:8209/;";
 
 // Visite https://api.vagalume.com.br/docs/ para saber como conseguir uma chave para API de letras
-var API_KEY = "81ad0f0ff7df3ae61ad97cd1425a753d";
+var API_KEY = "59e58b6210e7ed9e488a8499097976fe";
 
 window.onload = function() {
 	var pagina = new Pagina;
