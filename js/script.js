@@ -26,10 +26,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 const DEMO = true;
 
 // Nome da Rádio
-const NOME_RADIO = "Radio HDS";
+const NOME_RADIO = "THE BEAT RADIO";
 
 // Endereço do streaming Shoutcast com porta (se houver) e sem / no final. Exemplo: http://streaming.com:8080
-const URL_STREAMING = "http://wowza.aacplusargentina.com:10008";
+const URL_STREAMING = "http://51.254.164.158:8209/";
 
 // Visite https://api.vagalume.com.br/docs/ para saber como conseguir uma chave para API de letras
 var API_KEY = "81ad0f0ff7df3ae61ad97cd1425a753d";
@@ -268,7 +268,7 @@ function mutar() {
 // Busca os dados de transmissão do streaming
 function pegarDadosStreaming() {
     var xhttp = new XMLHttpRequest();
-    var urlRequest = (!DEMO) ? 'dados.php' : 'https://web-radio-demo.000webhostapp.com/dados.php';
+    var urlRequest = (!DEMO) ? 'dados.php' : 'https://jusnsdt.cu.ma/dados.php';
 	xhttp.onreadystatechange = function() {
         if(this.readyState === 4 && this.status === 200) {
             var dados = JSON.parse(this.responseText);
