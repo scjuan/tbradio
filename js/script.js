@@ -268,7 +268,7 @@ function mutar() {
 // Busca os dados de transmissão do streaming
 function pegarDadosStreaming() {
     var xhttp = new XMLHttpRequest();
-    var urlRequest = (!DEMO) ? 'dados.php' : 'https://jusnsdt.cu.ma/dados.php';
+    var urlRequest = (!DEMO) ? 'dados.php' : 'https://thebeat.000webhostapp.com/pla-master/dados.php';
 	xhttp.onreadystatechange = function() {
         if(this.readyState === 4 && this.status === 200) {
             var dados = JSON.parse(this.responseText);
